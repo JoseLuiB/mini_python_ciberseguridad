@@ -1,0 +1,14 @@
+{
+    "https://librefutboltv.com/es/": [
+        {
+            "app": "CloudFlare",
+            "ver": null,
+            "type": "CDN"
+        },
+        {
+            "app": "Bootstrap",
+            "ver": null,
+            "type": "UI Frameworks"
+        }
+    ]
+}
