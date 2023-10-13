@@ -1,14 +1,77 @@
-{
-    "https://librefutboltv.com/es/": [
+
         {
-            "app": "CloudFlare",
-            "ver": null,
-            "type": "CDN"
+            "app": "Apache",
+            "ver": "2.4.57",
+            "type": "Web Servers"
         },
         {
-            "app": "Bootstrap",
+            "app": "OpenSSL",
+            "ver": "1.0.2k",
+            "type": "Web Server Extensions"
+        },
+        {
+            "app": "PHP",
+            "ver": "8.0.30",
+            "type": "Programming Languages"
+        },
+        {
+            "app": "WP Rocket",
+            "ver": "3.13.2",
+            "type": "Cache Tools"
+        },
+        {
+            "app": "WordPress",
+            "ver": "6.3.1",
+            "type": "CMS,Blogs"
+        },
+        {
+            "app": "jQuery",
+            "ver": "3.7.0",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "jQuery",
+            "ver": "3.4.1",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "jQuery Migrate",
+            "ver": "\\2",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "jQuery",
+            "ver": "1.0.1",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "jQuery",
+            "ver": "0.2.1",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "Elementor",
+            "ver": "3.16.4",
+            "type": "Landing Page Builders"
+        },
+        {
+            "app": "jQuery",
+            "ver": "1.13.2",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "jQuery",
+            "ver": "3.16.2",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "Google Font API",
             "ver": null,
-            "type": "UI Frameworks"
+            "type": "Font Scripts"
+        },
+        {
+            "app": "MySQL",
+            "ver": null,
+            "type": "Databases"
         }
-    ]
-}
+    
