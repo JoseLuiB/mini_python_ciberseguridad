@@ -1,0 +1,68 @@
+---
+
+# Documentación del Proyecto "WAD - Web Technology Detector"
+
+## Descripción
+
+Este proyecto se enfoca en detectar las tecnologías utilizadas en un sitio web proporcionado a través de la herramienta "wad". La información detectada se almacena en un archivo de texto llamado "tecnologias.txt". El propósito de esta herramienta es analizar y catalogar las tecnologías empleadas en un sitio web dado.
+
+## Requisitos
+
+- Python 3.x instalado en el sistema.
+- La herramienta "wad" debe estar instalada y accesible desde la línea de comandos.
+
+## Instrucciones de Uso
+
+1. Ejecución del programa:
+
+   ```bash
+   python wad.py -t URL
+   ```
+
+   Donde "URL" es la dirección web que se desea analizar.
+
+2. El programa ejecutará la herramienta "wad" con la URL proporcionada y capturará la información de tecnologías detectadas.
+
+3. Los resultados se almacenan en un archivo "tecnologias.txt" en el directorio de trabajo.
+
+## Estructura del Proyecto
+
+- `wad.py`: El archivo principal del programa que contiene el código fuente.
+- `tecnologias.txt`: El archivo de salida que almacena las tecnologías detectadas.
+
+## Dependencias
+
+Este proyecto depende de las siguientes herramientas y bibliotecas:
+
+- Python 3.x
+- La herramienta "wad" para la detección de tecnologías.
+- Librerías de Python estándar: `subprocess`, `argparse`.
+
+## Ejemplos de Uso
+
+- **Ejemplo 1:** Analizar la URL "https://www.ejemplo.com" y almacenar las tecnologías detectadas en "tecnologias.txt".
+
+   ```bash
+   python wad.py -t https://www.ejemplo.com
+   ```
+
+- **Ejemplo 2:** Mostrar un mensaje de error si la herramienta "wad" no puede ser ejecutada.
+
+   ```bash
+   python wad.py -t https://www.ejemplo.com
+   ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de hacerlo a través de GitHub (https://github.com/JoseLuiB/python_seguridad).
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+## Contacto
+
+- Autor: José Luis Bolaños H.
+- Email: joselui_b@hotmail.com
+
+--- 

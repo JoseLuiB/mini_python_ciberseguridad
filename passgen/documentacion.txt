@@ -1,0 +1,62 @@
+---
+
+# Documentación del Proyecto "Passgen" (Generador de Contraseñas)
+
+## Descripción
+
+"Passgen" es un proyecto de Python que genera contraseñas aleatorias dentro de un rango de longitud deseado. Las contraseñas generadas pueden incluir letras mayúsculas, letras minúsculas, dígitos y caracteres especiales. El usuario puede especificar la longitud de la contraseña deseada (entre 8 y 25 caracteres) al ejecutar el programa.
+
+## Requisitos
+
+- Python 3.x instalado en el sistema.
+
+## Instrucciones de Uso
+
+1. Ejecución del programa:
+
+   ```bash
+   python passgen.py
+   ```
+
+2. El programa solicitará al usuario que ingrese la longitud deseada de la contraseña. La longitud debe estar entre 8 y 25 caracteres.
+
+3. Si se ingresa una longitud válida, el programa generará una contraseña aleatoria y la mostrará al usuario. Además, la contraseña se guardará en un archivo llamado "password.txt".
+
+4. Si la longitud ingresada no es válida (menos de 8, más de 25 o no numérica), el programa mostrará un mensaje de error.
+
+## Estructura del Proyecto
+
+- `passgen.py`: El archivo principal del programa que contiene el código fuente.
+
+## Dependencias
+
+Este proyecto no tiene dependencias externas además de Python 3.x.
+
+## Ejemplos de Uso
+
+- **Ejemplo 1:** Generar una contraseña de 12 caracteres:
+
+   ```bash
+   python passgen.py
+   ```
+
+- **Ejemplo 2:** Generar una contraseña de 8 caracteres:
+
+   ```bash
+   python passgen.py
+   ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de hacerlo a través de GitHub (https://github.com/JoseLuiB/python_seguridad).
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+## Contacto
+
+- Autor: José Luis Bolaños H.
+- Email: joselui_b@hotmail.com
+
+---

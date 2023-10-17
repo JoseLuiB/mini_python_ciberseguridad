@@ -1,0 +1,84 @@
+---
+
+# Documentación del Proyecto "Encryption" (Encriptación y Desencriptación)
+
+## Descripción
+
+"Encryption" es un proyecto de Python que proporciona funciones para generar claves aleatorias y para encriptar y desencriptar mensajes utilizando la biblioteca `cryptography` con el esquema Fernet. El usuario puede generar una nueva clave, cargar una clave existente, encriptar un mensaje y desencriptar un mensaje proporcionando una clave.
+
+## Requisitos
+
+- Python 3.x instalado en el sistema.
+- La biblioteca `cryptography` debe estar instalada. Puedes instalarla usando pip:
+
+  ```bash
+  pip install cryptography
+  ```
+
+## Instrucciones de Uso
+
+1. Ejecución del programa:
+
+   ```bash
+   python encryption.py
+   ```
+
+2. El programa ofrecerá varias opciones:
+   - Generar una nueva clave (g)
+   - Utilizar una clave existente (e)
+   - Encriptar un mensaje (en)
+   - Desencriptar un mensaje (de)
+
+3. Dependiendo de la opción seleccionada, el programa generará una nueva clave, cargará una clave existente, encriptará un mensaje o desencriptará un mensaje.
+
+## Estructura del Proyecto
+
+- `encryption.py`: El archivo principal del programa que contiene las funciones para generar claves, encriptar y desencriptar mensajes, y el código principal para interactuar con el usuario.
+
+## Dependencias
+
+- Python 3.x
+- Biblioteca `cryptography`
+
+## Ejemplos de Uso
+
+### Ejemplo 1: Generar una nueva clave y encriptar un mensaje
+
+```bash
+python encryption.py
+```
+
+1. Ejecuta el programa `encryption.py`.
+2. Selecciona la opción "g" para generar una nueva clave.
+3. Se te informará que la clave se ha generado y guardado en 'clave.key'.
+4. Luego, selecciona la opción "en" para encriptar un mensaje.
+5. Ingresa el mensaje que deseas encriptar y presiona Enter.
+6. El programa encriptará el mensaje y mostrará el mensaje encriptado.
+
+### Ejemplo 2: Utilizar una clave existente y desencriptar un mensaje
+
+```bash
+python encryption.py
+```
+
+1. Ejecuta el programa `encryption.py`.
+2. Selecciona la opción "e" para utilizar una clave existente.
+3. La clave se cargará desde 'clave.key'.
+4. Luego, selecciona la opción "de" para desencriptar un mensaje.
+5. Ingresa el mensaje encriptado que deseas desencriptar y presiona Enter.
+6. El programa desencriptará el mensaje y mostrará el mensaje original.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de hacerlo a través de GitHub (https://github.com/JoseLuiB/python_seguridad).
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+## Contacto
+
+- Autor: José Luis Bolaños H.
+- Email: joselui_b@hotmail.com
+
+---

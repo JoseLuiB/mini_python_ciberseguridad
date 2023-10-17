@@ -1,0 +1,63 @@
+---
+
+# Documentación del Proyecto "Escáner de Puertos"
+
+## Descripción
+
+Este proyecto se centra en escanear los puertos de una dirección IPv4 proporcionada por el usuario y determinar si los puertos están abiertos, filtrados o cerrados. Utiliza el módulo de socket de Python para llevar a cabo el escaneo de los puertos en un rango del 1 al 65535.
+
+## Requisitos
+
+- Python 3.x instalado en el sistema.
+- Acceso a Internet para resolver la dirección IP y realizar conexiones de red.
+
+## Instrucciones de Uso
+
+1. Ejecución del programa:
+
+   ```bash
+   python portscanner.py
+   ```
+
+2. El programa solicitará al usuario que ingrese la dirección IPv4 que se escaneará.
+
+3. El programa realizará un escaneo de los puertos en un rango del 1 al 65535 y mostrará el estado de cada puerto (abierto, filtrado o cerrado).
+
+4. El escaneo se interrumpirá si el usuario presiona Ctrl+C.
+
+## Estructura del Proyecto
+
+- `portscanner.py`: El archivo principal del programa que contiene el código fuente.
+
+## Dependencias
+
+Este proyecto no tiene dependencias externas además de Python 3.x.
+
+## Ejemplos de Uso
+
+- **Ejemplo 1:** Escanear los puertos de la dirección IPv4 "192.168.1.1":
+
+   ```bash
+   python portscanner.py
+   ```
+
+- **Ejemplo 2:** Escanear los puertos de la dirección IPv4 "192.168.1.2":
+
+   ```bash
+   python portscanner.py
+   ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de hacerlo a través de GitHub (https://github.com/JoseLuiB/python_seguridad).
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+## Contacto
+
+- Autor: José Luis Bolaños H.
+- Email: joselui_b@hotmail.com
+
+--- 

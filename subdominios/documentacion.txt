@@ -1,0 +1,68 @@
+---
+
+# Documentación del Proyecto "Detección de Subdominios"
+
+## Descripción
+
+Este proyecto se enfoca en encontrar subdominios en un dominio víctima proporcionado por el usuario. Utiliza una lista de posibles subdominios contenida en el archivo "subdominios.txt" para realizar peticiones HTTP y determinar si los subdominios son accesibles. Si se encuentran subdominios válidos, se informan al usuario.
+
+## Requisitos
+
+- Python 3.x instalado en el sistema.
+- Acceso a Internet para realizar solicitudes HTTP.
+- Una lista de subdominios en un archivo "subdominios.txt" en el mismo directorio que el script.
+
+## Instrucciones de Uso
+
+1. Ejecución del programa:
+
+   ```bash
+   python subdominios.py -t dominio_objetivo
+   ```
+
+   Donde "dominio_objetivo" es el dominio en el que se buscarán subdominios.
+
+2. El programa leerá la lista de subdominios desde el archivo "subdominios.txt" y probará cada uno de ellos con las combinaciones de los protocolos HTTP y HTTPS.
+
+3. Si se encuentra un subdominio accesible, se mostrará un mensaje indicando el descubrimiento.
+
+## Estructura del Proyecto
+
+- `subdominios.py`: El archivo principal del programa que contiene el código fuente.
+- `subdominios.txt`: El archivo de entrada que contiene la lista de subdominios a probar.
+
+## Dependencias
+
+Este proyecto depende de las siguientes herramientas y bibliotecas:
+
+- Python 3.x
+- Librerías de Python: `requests`, `os`, `argparse`, `sys`.
+
+## Ejemplos de Uso
+
+- **Ejemplo 1:** Buscar subdominios en el dominio "ejemplo.com":
+
+   ```bash
+   python subdominios.py -t ejemplo.com
+   ```
+
+- **Ejemplo 2:** Mostrar un mensaje de error si el archivo "subdominios.txt" no existe:
+
+   ```bash
+   python subdominios.py -t ejemplo.com
+   ```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de hacerlo a través de GitHub (https://github.com/JoseLuiB/python_seguridad).
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+## Contacto
+
+- Autor: José Luis Bolaños H.
+- Email: joselui_b@hotmail.com
+
+--- 
